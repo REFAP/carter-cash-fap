@@ -283,10 +283,10 @@
             <div class="config-banner" id="configBanner">
                 <strong>⚙️ Configuration requise :</strong> 
                 Configurez votre endpoint Formspree dans le code ou utilisez le formulaire de test ci-dessous.
-                <br><small>Endpoint actuel : <code id="currentEndpoint">https://formspree.io/f/VOTRE_ID</code></small>
+                <br><small>Endpoint actuel : <code id="currentEndpoint">https://formspree.io/f/mqaypnpa</code></small>
             </div>
 
-            <form id="expeditionForm" action="https://formspree.io/f/VOTRE_ID" method="POST">
+            <form id="expeditionForm" action="https://formspree.io/f/mqaypnpa" method="POST">
                 <div class="form-section">
                     <div class="form-group">
                         <label for="_replyto">
@@ -463,7 +463,7 @@
     <script>
         // Configuration de base
         const CONFIG = {
-            formspreeEndpoint: 'https://formspree.io/f/VOTRE_ID', // À remplacer
+            formspreeEndpoint: 'https://formspree.io/f/mqaypnpa', // À remplacer
             resetDelay: 5000
         };
 
@@ -482,7 +482,7 @@
             }
 
             // Vérification de la configuration
-            if (form.action.includes('VOTRE_ID')) {
+            if (form.action.includes('mqaypnpa')) {
                 console.warn('⚠️ N\'oubliez pas de configurer votre endpoint Formspree !');
             }
 
